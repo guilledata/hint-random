@@ -224,6 +224,15 @@ header {
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
   }
 }
+
+@media only screen and (max-width: 1250px) {
+  #winner {
+    width: fit-content;
+    margin: auto;
+    font-size: 50px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .namepicker input {
     width: 100%;
@@ -246,11 +255,5 @@ header {
   }
 }
 
-@media only screen and (max-width: 1250px) {
-  #winner {
-    width: fit-content;
-    margin: auto;
-    font-size: 50px;
-  }
-}
+
 /*# sourceMappingURL=styles.css.map */
