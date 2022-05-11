@@ -141,6 +141,13 @@ header {
 
 .title {
   padding-bottom: 30px;
+  display: none;
+}
+
+.logo-top{
+  margin: 0 auto;
+  margin-bottom: 20px;
+  widht: 200px;
 }
 
 .namepicker {
@@ -161,7 +168,7 @@ header {
 }
 
 .namepicker input {
-  width: 420px;
+  width: 100%;
   color: #898989;
   font-size: 20px;
   font-weight: normal;
@@ -170,7 +177,7 @@ header {
   border-radius: 5px;
   padding: 20px;
   border: 0;
-  margin-bottom: 75px;
+  margin: 25px 0px;
 }
 
 .namepicker input::placeholder {
