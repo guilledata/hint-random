@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     NUM_CONFETTI = 350;
 
-    COLORS = [[85, 71, 106], [174, 61, 99], [219, 56, 83], [244, 92, 68], [248, 182, 70]];
+    COLORS = [[226, 100, 65], [217, 87, 100], [217, 91, 86], [244, 92, 68], [248, 182, 70]];
 
     PI_2 = 2 * Math.PI;
 
